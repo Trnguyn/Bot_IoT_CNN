@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files
+data/raw/*.csv
+data/processed/*.csv
+*.csv
+
+# Model files
+models/*.pth
+*.pth
+
+# Results
+results/*.png
+results/*.jpg
+results/*.txt
+results/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
