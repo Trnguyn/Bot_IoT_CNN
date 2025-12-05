@@ -14,7 +14,10 @@ ENV/
 # Data files
 data/raw/*.csv
 data/processed/*.csv
+data/processed/*.pkl
 *.csv
+*.zip
+*.pkl
 
 # Model files
 models/*.pth
